@@ -1,5 +1,9 @@
 # superCrow
 SuperCollider + Crow
 <br><br>
-This script presents some basic tools for scripting with SuperCollider and crow:
-<li>connecting to crow (lines 5-8)</li>
+This script demonstrates some basic techniques for scripting with SuperCollider and crow, such as:
+<li>connecting SuperCollider to crow (lines 5-8)</li>
+<li>sending individual commands to crow from SuperCollider (line 10)</li>
+<li>sequencing crow commands to w/syn using tasks in SuperCollider (lines 91-99)</li>
+<li>sequencing crow commands to just friends using tasks in SuperCollider (lines 100-108)</li>
+<li>sequencing crow's outputs using tasks in SuperCollider (lines 109-126)</li>
