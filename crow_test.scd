@@ -118,7 +118,7 @@ Task(
 		Tdef(\3, {
 			var delta;
 			loop {
-				delta = ~durs[2].next;
+				delta = ~durs[3].next;
 				p.putAll("output[4](pulse());\n");
 				"output 4 pulse".postln;
 				delta.yield;
